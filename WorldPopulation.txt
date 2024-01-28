@@ -1,0 +1,21 @@
+import java.util.Scanner;
+public class WorldPopulation{
+
+public static void main(String [] args){
+Scanner scanner = new Scanner(System.in);l 
+
+
+int worldPopulation = 7,800,000,000;
+int annualGrowth = 1%;
+
+int value = 1/100 * 7,800,000,000;
+int value = 1/100 * 78,000,000;
+int value = 1/100 * 780,000;
+int value = 1/100 * 7,800;
+int value = 1/100 * 78;
+
+System.out.println("value for year one is");
+System.out.println("value for year two is");
+System.out.println("value for year three is");
+System.out.println("value for year four is");
+System.out.println("value for year five is");

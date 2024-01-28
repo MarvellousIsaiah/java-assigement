@@ -1,0 +1,4 @@
+from math import pi
+radius = 6
+area_of_circle = pi * radius **2
+print(f'{area_of_circle:2f}')

@@ -1,25 +1,20 @@
+import java.util.Scanner;
 public class Arithemetic{
-public static void main(String[] arg){
-Scanner scanner = new Scanner(System.in);
+	public static void main(String [] args){
+	Scanner scanner = new Scanner(System.in);
+
+	System.out.print("Enter two integer");
+	int numbersquare1 = scanner.nextInt(); 
 
 
-System.out.println("Enter your first number");
-int number1 = scanner.nextInt();
+	
+	int  square = numbersquare1 * numbersquare1;
+	int sum = square + square;
+	int subtraction = square - square;
+	
 
-System.out.println("Enter your second number");
-int number2= scanner.nextInt();
-
-int square1 = number1 * number1;
-int squre2 = number2 * number2;
-
-System.out.println("the square  of your first number is "+square1);
-System.out.printl("the quare of yuor first number is "+ square2);
-
-int sumOfSquare = square1 + square2;
-System.out.println("sum ofthe square2 is "+sumOfSquare);
-
-int differenceOfTheSquare = square1-square2;
-System.out.println("defference of the two squares is " + differenOfTheSquare);
+	System.out.printf("square is %d%n, sum is %d%n, subtraction is %d%n",square, sum, subtraction);
+	
 
 
 
@@ -27,17 +22,4 @@ System.out.println("defference of the two squares is " + differenOfTheSquare);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-}
-}
+}}

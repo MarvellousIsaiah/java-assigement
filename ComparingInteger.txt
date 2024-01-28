@@ -1,0 +1,33 @@
+import java.util.Scanner;
+public class ComparingInteger{
+
+	public static void main(String [] args){
+	Scanner scanner = Scanner(System.in);
+
+	System.out.print("Enter one integer");
+	int number = scanner.nextInt();
+
+	int square = number * number;
+
+	if(number > 100){
+	System.out.print("number is greater than 100");
+	}
+
+	else if(number == 100){
+	System.out.print("number is eqaul to 100");
+	}
+
+	if(number != 100);{
+	system.out.print("number is not equal to 100");
+	}
+
+	if(number < 100){
+	System.out.print("number is less than 100);
+	}
+
+	}}
+
+	
+
+	
+
